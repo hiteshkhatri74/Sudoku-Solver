@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <h3>Sudoku Solver</h3>
+
+    <label for="size">Enter Sudoku grid size:</label>
+    <input type="number" id="size" min="4" step="1" placeholder="Enter a number eg. 9">
+    <br>
+    <button onclick="initializeGrid()">Create Grid</button>
+
+    <div id="container1"></div>
+    <br>
+    <button onclick="solveSudoku()">Solve Sudoku</button>
+    <br>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

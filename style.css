@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial,sans-serif;
+}
+
+#container1 {
+    display: grid;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
